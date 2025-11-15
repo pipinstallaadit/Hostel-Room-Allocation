@@ -9,6 +9,7 @@ This repository contains a Python implementation for solving the hostel room all
 This project explores and compares three different optimization techniques:
 
 ### **🟦 Particle Swarm Optimization (PSO)**
+Reference: https://iaiai.org/letters/index.php/liir/article/view/39/26
 
 A population-based stochastic optimization technique inspired by the social behavior of bird flocking or fish schooling.
 Implemented in:
@@ -33,6 +34,7 @@ Implemented in:
 ---
 
 ### **🟧 Hybrid PSO-TLBO (Best Performer)**
+Reference: https://www.mdpi.com/2313-7673/9/1/8
 
 A novel hybrid approach combining:
 
