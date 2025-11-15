@@ -1,6 +1,3 @@
-# Written by - Souritra Garai
-# Contact - souritra.garai@iitgn.ac.in, sgarai65@gmail.com
-# Data - 17th September 2020
 
 from Particle_Swarm_Optimization import Single_Objective_PSO
 from Room_Allocation_Methods import vectorized_calculate_fitness, allocate_students, calculate_preference_score_max, calculate_preference_score_sum, init_pool, destruct_pool

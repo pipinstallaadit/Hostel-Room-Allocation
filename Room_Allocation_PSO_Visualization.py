@@ -16,8 +16,9 @@ selected_runs = np.argsort(g_best_matrix[-1])[:num_runs_to_display]
 # initialize figure to be used for plotting
 fig, ax = plt.subplots(1, 1)
 
-manager = plt.get_current_fig_manager()
-manager.window.showMaximized()
+figManager = plt.get_current_fig_manager()
+figManager.resize(1600, 900)   # manually set window size
+
 
 # initialising the global best vs iteration plot
 g_lines = [ ax.plot(iters[:1], g_best_matrix[:1, i], label=str(i))[0] for i in selected_runs ]
@@ -35,8 +36,12 @@ ax.set_xscale('log')
 
 # display grid
 ax.minorticks_on()
-ax.grid(b=True, which='minor', color='r', linestyle='--', linewidth=0.5)
-ax.grid(b=True, which='major', color='grey', linewidth=1)
+# display grid
+ax.minorticks_on()
+
+ax.grid(which='minor', grid_color='r', grid_linestyle='--', grid_linewidth=0.5)
+ax.grid(which='major', grid_color='grey', grid_linewidth=1)
+
 
 # set label
 # ax.legend()

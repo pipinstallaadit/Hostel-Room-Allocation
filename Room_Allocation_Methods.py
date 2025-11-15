@@ -1,6 +1,4 @@
-# Written by - Souritra Garai
-# Contact - souritra.garai@iitgn.ac.in, sgarai65@gmail.com
-# Data - 15th September 2020
+
 
 import os
 import numpy as np

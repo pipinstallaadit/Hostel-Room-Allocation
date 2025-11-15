@@ -1,5 +1,4 @@
-# Written by - Souritra Garai
-# Contact - souritra.garai@iitgn.ac.in, sgarai65@gmail.com
+
 
 # Definition of a class for using Particle Swarm Optimization
 # Uses numpy to optimize iterations and other linear algebra operations
@@ -144,7 +143,7 @@ class Single_Objective_PSO :
 
             raise RuntimeError('Running iterations, cannot update now, use stop_iterations() first!!')
         
-        my_array = np.array(array, dtype=np.float).reshape(-1, 2)
+        my_array = np.array(array, dtype=float).reshape(-1, 2)
         
         if self.__n != None and self.__n != np.shape(my_array)[0] :
 

@@ -4,7 +4,7 @@ import os
 result_scores = np.load(os.path.join('npy Files','Final_Room_Allocation_Scores.npy'))
 result_room_allocation = np.load(os.path.join('npy Files','PSO_Final_Room_Allocations.npy'))
 
-room_capacity = np.genfromtxt(os.path.join('csv Files','Room_Capacity_List.csv'), dtype=np.int)
+room_capacity = np.genfromtxt(os.path.join('csv Files','Room_Capacity_List.csv'), dtype=int)
 # print(result_scores)
 # print(result_room_allocation.shape)
 
